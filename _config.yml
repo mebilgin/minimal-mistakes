@@ -166,13 +166,10 @@ footer:
 include:
   - .htaccess
   - _pages
-  - "*.pdf"
-  - "papers/*.pdf"
-  - "portfolio/papers/*.pdf"
-  - "portfolio/*.pdf"
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - vendor
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -190,9 +187,12 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
