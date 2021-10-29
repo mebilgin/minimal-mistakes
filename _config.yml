@@ -85,12 +85,6 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
-yandex_site_verification :
-baidu_site_verification  :
 
 # SEO Related
 google_site_verification : "3hdu0GcCfjZ6WbPpApjcdcEGjsCPDcDn1QLtBm-DRBg"
@@ -115,9 +109,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : 
     anonymize_ip         : # true, false (default)
 
 
@@ -131,6 +125,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=IC-qlswAAAAJ&hl=en&authuser=2&oi=sra"
   orcid            : "https://orcid.org/0000-0002-8458-2188"
   semanticscholar  : "https://www.semanticscholar.org/author/Muhammed-Bilgin/34403949"
+  github           : "mebilgin"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -166,6 +161,10 @@ footer:
 include:
   - .htaccess
   - _pages
+  - "*.pdf"
+  - "papers/*.pdf"
+  - "portfolio/papers/*.pdf"
+  - "portfolio/*.pdf"
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -219,6 +218,21 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  articles:
+    output: true
+    permalink: /:collection/:path/
+  expressions:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/  
+
 
 # Sass/SCSS
 sass:
@@ -266,6 +280,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+article_archive:
+  type: liquid
+  path: /articles/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -297,6 +314,49 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: false
+      comments: false
+  # _articles
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _expressions
+  - scope:
+      path: ""
+      type: expressions
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
