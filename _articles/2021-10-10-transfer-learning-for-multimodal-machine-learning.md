@@ -1,16 +1,25 @@
 ---
-title: "Speech Classification a Survey"
+title: "Transfer Learning for MultiModal Machine Learning"
 category: articles
-tags: ["speech", "speech classification", "classification"]
-permalink: /articles/2020-05-20-speech-classification/
+tags: ["transfer learning", "multimodal", "multimodal machine learning"]
+permalink: /articles/2022-08-20-transfer-learning-for-multimodal-machine-learning/
 excerpt: "excerpt text will be here.."
-venue: "arXiv"
-date: 2020-05-20
+venue: "arXiv (working on..)"
+date: 2022-08-20
 ---
+
+<!-- Transfer Learning for MultiModal Machine Learning -->
+
 
 <a href="https://mebilgin.com/papers/factor.pdf">Download PDF here</a>.
 
+This article is still in the writing and testing phase. The experimental and algorithm results of the article have not been formed yet. Article details will soon be available on ArXiv. Please see the abstract part for the foreground for now.
+
+
 Abstract: abstract text will be here.
+
+
+<!-- Citation
 
 Recommended citation: M. Bilgin and T. Ensari, "Robot localization with Monte Carlo method," 2017 Electric Electronics, Computer Science, Biomedical Engineerings' Meeting (EBBT), 2017, pp. 1-7, doi: 10.1109/EBBT.2017.7956755.
 <br>
@@ -26,3 +35,4 @@ Recommended citation: M. Bilgin and T. Ensari, "Robot localization with Monte Ca
  year = {2017}
 }
 ```
+-->

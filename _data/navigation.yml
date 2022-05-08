@@ -3,24 +3,23 @@ main:
   - title: "Publications"
     url: /articles/
 
-  - title: "Talks"
-    url: /talks/    
-    
-  - title: "Expressions"
-    url: /expressions/
-
-  - title: "Teaching"
-    url: /teaching/
-        
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /year-archive/    
+
+  - title: "Reading Log"
+    url: /teaching/
+
+  - title: "Talks"
+    url: /talks/
     
-  - title: "CV"
-    url: /cv/
-  
+  - title: "Personal Things"
+    url: /expressions/
+    
   - title: "Contact"
     url: /contact/
 
+  #- title: "CV"
+  #  url: /cv/
 
 #main:
   #- title: "Quick-Start Guide"
