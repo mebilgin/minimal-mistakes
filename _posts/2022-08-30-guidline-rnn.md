@@ -1,13 +1,13 @@
 ---
-title: Word Embeddings
-published: 2021-10-05
+title: Guidline of RNN
+published: 2022-08-30
 category: posts
-tags: ["word embeddings", "nlp"]
+tags: ["rnn", "recurrent neural network", "neural network"]
 excerpt: "Links about our research"
-permalink: /posts/2021/10/word-embeddings/ 
+permalink: /posts/2022/08/guidline-rnn/ 
 ---
 
-The content will be published on 10-11-2021.
+The content will be published on 30-08-2022.
 
 <!--
 

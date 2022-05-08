@@ -1,15 +1,15 @@
 ---
-title: Tensors
+title: General Perspective TF-IDF
+published: 2022-05-30
 category: posts
-tags: ["tensor"]
-published: 2021-04-20
+tags: ["nlp", "natural language processing", "distance metrics"]
 excerpt: "Links about our research"
-permalink: /posts/2021/04/tensors/ 
+permalink: /posts/2022/05/general-tf-idf/ 
 ---
 
-The content will be published on 10-11-2021.
+The content will be published on 30-05-2022.
 
-<!--
+
 Over the past few years, our team has been working on a few interrelated research projects about the work of maintaining Free & Open-Source Software (FOSS) projects. For more information about our project, read [this blog post](link) we wrote when we first received our research grant from the Ford & Sloan Foundations. Our team is an interdisciplinary mix tackling these issues from qualitative and quantitative perspectives, and many of us have also been maintainers of various FOSS projects:
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
@@ -32,12 +32,12 @@ In this example we will be using [KaTeX](https://katex.org/)
 
 **Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
 
--->
-<!-- 
-
 {{< math.inline >}}
 {{ if or .Page.Params.math .Site.Params.math }}
 
+-->
+
+<!-- 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
@@ -54,4 +54,4 @@ $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
 $$
 
-KaTeX -->
+KaTeX

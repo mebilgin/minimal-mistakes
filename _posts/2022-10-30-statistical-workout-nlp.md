@@ -1,18 +1,20 @@
 ---
-title: Poisson Disturbution
+title: Statistical Workout with NLP
+published: 2022-10-30
 category: posts
-tags: ["probability"]
-published: 2019-05-20
+tags: ["nlp", "statistics", "markov", "markov chain", "sampling"]
 excerpt: "Links about our research"
-permalink: /posts/2019/05/poisson-disturb/ 
+permalink: /posts/2022/10/statistical-workout-nlp/ 
 ---
 
-The content will be published on 10-11-2021.aa
+The content will be published on 30-10-2022.
 
 <!--
+
 Over the past few years, our team has been working on a few interrelated research projects about the work of maintaining Free & Open-Source Software (FOSS) projects. For more information about our project, read [this blog post](link) we wrote when we first received our research grant from the Ford & Sloan Foundations. Our team is an interdisciplinary mix tackling these issues from qualitative and quantitative perspectives, and many of us have also been maintainers of various FOSS projects:
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
+
 
 In this example we will be using [KaTeX](https://katex.org/)
 
@@ -36,8 +38,7 @@ In this example we will be using [KaTeX](https://katex.org/)
 
 -->
 
-<!-- KaTeX 
-
+<!-- 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
@@ -53,4 +54,5 @@ Block math:
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
 $$
--->
+
+KaTeX -->
