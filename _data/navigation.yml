@@ -4,27 +4,16 @@ main:
     url: /articles/ 
 
   - title: "Blog Posts"
-<<<<<<< HEAD
     url: /year-archive/    
-=======
-    url: /year-archive/
->>>>>>> 6ac0bd43b5043dbbbd240963a63fae5780bfff62
 
   - title: "Talks"
     url: /talks/
 
   - title: "Reading Log"
-<<<<<<< HEAD
     url: /teaching/    
     
   - title: "Personal Things"
-    url: /expressions/
-=======
-    url: /readlog/ 
-
-  - title: "Personal Issue"
-    url: /expressions/       
->>>>>>> 6ac0bd43b5043dbbbd240963a63fae5780bfff62
+    url: /expressions/  
   
   - title: "Contact"
     url: /contact/
