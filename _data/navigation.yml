@@ -4,19 +4,22 @@ main:
     url: /articles/ 
 
   - title: "Blog Posts"
-    url: /year-archive/    
+    url: /year-archive/
+
+  - title: "Reading Log"
+    url: /teaching/
 
   - title: "Talks"
     url: /talks/
-
-  - title: "Reading Log"
-    url: /teaching/    
     
   - title: "Personal Things"
-    url: /expressions/  
-  
+    url: /expressions/
+    
   - title: "Contact"
     url: /contact/
+
+  #- title: "CV"
+  #  url: /cv/
 
 #Cv extension
   #- title: "CV"
