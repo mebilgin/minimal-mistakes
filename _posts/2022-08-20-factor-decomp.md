@@ -1,13 +1,13 @@
 ---
-title: Particle Filter
-published: 2021-10-05
+title: Factorization and Decomposition
+published: 2022-08-20
 category: posts
-tags: ["particle filter", "probability"]
+tags: ["tensor"]
 excerpt: "Links about our research"
-permalink: /posts/2021/05/particle-filter/ 
+permalink: /posts/2022/08/factor-decomp/ 
 ---
 
-The content will be published on 10-11-2021.
+The content will be published on 20-08-2022.
 
 <!--
 
@@ -39,6 +39,7 @@ In this example we will be using [KaTeX](https://katex.org/)
 -->
 
 <!-- 
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
