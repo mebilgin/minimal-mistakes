@@ -1,6 +1,7 @@
 require "bundler/gem_tasks"
 require "jekyll"
 require "listen"
+require 'jekyll/scholar'
 
 def listen_ignore_paths(base, options)
   [
