@@ -1,21 +1,35 @@
 ---
-title: Toronto Travel Notes
-excerpt: Toronto Travel Notes
+title: Creating and Producing Time
+excerpt: Creating and Producing Time
 collection: expressions
-permalink: /expressions/toronto-travel-notes/ 
+permalink: /expressions/creating-production-time/ 
 ---
 <!--redirect_to: /articles/2012-05-02-altchi-ipoxp -->
 
-The content will be published on 10-11-2021.
+The content will be published on 22-09-2022.
 
-## Toronto Travel Notes
+## Get Used to Living with Time
 <pre>
 intro intro intro intro
 intro intro intro intro
 intro intro intro intro
 </pre>
 
-## There will be Travel Notes
+## Make Time
+<pre>
+space space space space
+space space space space
+space space space space
+</pre>
+
+## Producing and Time Value
+<pre>
+space space space space
+space space space space
+space space space space
+</pre>
+
+## Final Sentence
 <pre>
 space space space space
 space space space space
